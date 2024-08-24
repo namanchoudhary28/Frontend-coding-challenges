@@ -4,6 +4,7 @@ import Home from './Components/Home'
 import StarRating from './Components/StarRating'
 import ToastNotification from './Components/Toast/ToastNotification'
 import MainAcccordian from './Components/Accordian/MainAcccordian'
+import RegistrationForm from './Components/RegistrationForm'
 const App = () => {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ const App = () => {
       <Route path='/star-rating' element={<StarRating />} />
       <Route path='/toast-notify' element={<ToastNotification />} />
       <Route path='/accordian' element={<MainAcccordian />} />
+      <Route path='/form' element={<RegistrationForm />} />
 
 
     </Routes>

@@ -93,3 +93,21 @@
   display: flex;
   flex-direction: column;
 }
+
+.form{
+  gap: 5px;
+  border: 1px solid black;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.form-child{
+  display: flex;
+  /* gap: 12px; */
+  flex-direction: row;
+}
