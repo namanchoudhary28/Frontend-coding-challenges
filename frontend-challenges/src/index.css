@@ -62,3 +62,34 @@
   /* background: white; */
 
 }
+.accordian-div{
+  height: 70%;
+  width: 70%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  overflow: auto;
+  padding: 4px;
+}
+
+
+.accord{
+  width: 60vw; /* Width relative to viewport width */
+  min-height: 50px; /* Minimum height to allow growth */
+  background: rgb(231, 231, 182);
+  box-sizing: border-box; /* Ensure padding and borders are included in width/height */
+  padding: 10px; /* Add padding for content spacing */
+  display: flex;
+  justify-content: space-between;
+}
+.para{
+ background: pink;
+}
+
+.main-div-accord{
+  display: flex;
+  flex-direction: column;
+}
