@@ -26,3 +26,39 @@
 .star-active{
   color: red;
 }
+.main-toast{
+  background: rgb(231, 199, 205);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.toast-div{
+  height: 30%;
+  width: 40%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.toaDiv{
+  position: absolute; 
+  top: 0;
+   right: 0;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-wrap: wrap;
+  height: 30%;
+  width: 40%;
+  border-radius: 2px solid black;
+  /* background: white; */
+
+}
