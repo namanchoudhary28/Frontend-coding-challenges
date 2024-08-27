@@ -8,6 +8,7 @@ const Home = () => {
     <Link to={'/toast-notify'}>Toast Notification Challenge</Link><br />
     <Link to={'/accordian'}>Accordian Challenge</Link><br />
     <Link to={'/form'}>User Registration Form Challenge</Link><br />
+    <Link to={'/todo'}>Todo Challenge</Link><br />
 
     
     </>

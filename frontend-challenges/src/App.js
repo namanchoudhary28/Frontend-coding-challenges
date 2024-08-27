@@ -5,6 +5,7 @@ import StarRating from './Components/StarRating'
 import ToastNotification from './Components/Toast/ToastNotification'
 import MainAcccordian from './Components/Accordian/MainAcccordian'
 import RegistrationForm from './Components/RegistrationForm'
+import Todo from './Todo'
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ const App = () => {
       <Route path='/toast-notify' element={<ToastNotification />} />
       <Route path='/accordian' element={<MainAcccordian />} />
       <Route path='/form' element={<RegistrationForm />} />
+      <Route path='/todo' element={<Todo />} />
 
 
     </Routes>
