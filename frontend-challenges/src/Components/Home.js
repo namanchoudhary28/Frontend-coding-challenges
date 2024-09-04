@@ -9,6 +9,8 @@ const Home = () => {
     <Link to={'/accordian'}>Accordian Challenge</Link><br />
     <Link to={'/form'}>User Registration Form Challenge</Link><br />
     <Link to={'/todo'}>Todo Challenge</Link><br />
+    <Link to={'/search'}>Autosearch Challenge</Link><br />
+    <Link to={'/pagination'}>Pagination Challenge</Link><br />
 
     
     </>

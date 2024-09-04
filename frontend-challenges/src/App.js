@@ -6,6 +6,8 @@ import ToastNotification from './Components/Toast/ToastNotification'
 import MainAcccordian from './Components/Accordian/MainAcccordian'
 import RegistrationForm from './Components/RegistrationForm'
 import Todo from './Todo'
+import Autosearch from './Components/Autosearch/Autosearch'
+import  Pagination  from './Components/Pagination/Pagination'
 const App = () => {
   return (
     <BrowserRouter>
@@ -17,6 +19,8 @@ const App = () => {
       <Route path='/accordian' element={<MainAcccordian />} />
       <Route path='/form' element={<RegistrationForm />} />
       <Route path='/todo' element={<Todo />} />
+      <Route path='/search' element={<Autosearch />} />
+      <Route path='/pagination' element={<Pagination />} />
 
 
     </Routes>
